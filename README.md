@@ -1,8 +1,8 @@
-# Customer Retention Analysis — Telecom Churn Dashboard (Power BI)
+# Customer Retention Analysis: Telecom Churn Dashboard (Power BI)
 
 An interactive Power BI dashboard that helps a telecom operator understand **who is leaving, and why**, so the retention team can act *before* customers cancel rather than after.
 
-> **Context.** Built as part of the *PwC Switzerland – Power BI Job Simulation* (Forage). It is a virtual case study on a provided dataset, not a real client engagement.
+> **Context.** Built as part of the *PwC Switzerland – Power BI Job Simulation* (Forage). It is a virtual case study on a provided dataset.
 
 ## The business problem
 
@@ -62,4 +62,4 @@ PwC Switzerland – Power BI Job Simulation: <https://www.theforage.com/simulati
 
 ## Author
 
-**Zinsou Valentin AFFATON** — Data analyst / Data scientist, Cotonou, Benin.
+**Zinsou Valentin AFFATON**  Data analyst / Data scientist, Cotonou, Benin.
