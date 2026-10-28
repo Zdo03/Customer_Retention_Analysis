@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard that helps a telecom operator understand **who is leaving, and why**, so the retention team can act *before* customers cancel rather than after.
 
-> **Context.** Built as part of the *PwC Switzerland – Power BI Job Simulation* (Forage). It is a virtual case study on a provided dataset.
+> **Context.** Built as part of the *PwC Switzerland  Power BI Job Simulation* (Forage). It is a virtual case study on a provided dataset.
 
 ## The business problem
 
