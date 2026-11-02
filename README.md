@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard that helps a telecom operator understand **who is leaving, and why**, so the retention team can act *before* customers cancel rather than after.
 
-> **Context.** Built as part of the *PwC Switzerland  Power BI Job Simulation* (Forage). It is a virtual case study on a provided dataset.
+> **Context.** Built as part of the *PwC Switzerland: Power BI Job Simulation* (Forage). It is a virtual case study on a provided dataset.
 
 ## The business problem
 
@@ -27,8 +27,21 @@ The retention team contacts customers only after they have cancelled, a reactive
 - **Services signed**: phone service, multiple lines, streaming, device protection, online backup, online security, tech support, and internet service type (fiber optic, DSL, none).
 
 **Page 2 – Insights & Recommendations**
-<!-- TODO: add 3-5 bullet points taken from your "Insights & Recommendations" page (e.g. which contract type / tenure band / service has the highest churn, and the action you recommend). -->
-- See the *Insights & Recommendations* page of the `.pbix` file.
+
+Key findings:
+- **Churn level:** 1,869 of 7,043 customers have left: a **26.54 %** churn rate (73.46 % retention).
+- **Who churns:** among churned customers, 25 % are senior citizens, 36 % have a partner and 17 % have dependents.
+- **Contract and billing:** most customers are on month-to-month contracts; more than 60 % of churned customers paid by electronic check, and about 75 % of them used paperless billing.
+- **Internet service:** 1,297 churned customers had fiber optic and 459 had DSL, which may point to dissatisfaction with the fiber service (a hypothesis to test).
+- **Protection and support:** more than 65 % of churned customers had no online security / backup, and no device protection or tech support.
+
+Recommendations:
+- Targeted retention programs for senior citizens and for customers with partners or dependents.
+- Incentives for longer-term contracts, to reduce month-to-month churn.
+- Incentives for alternative payment methods, especially for electronic-check users.
+- Improve and promote the paperless billing experience.
+- Streaming content packages or promotions for customers who stream.
+- Bundle device protection and tech support to increase adoption.
 
 ## Repository contents
 
@@ -54,6 +67,7 @@ Data modelling in Power BI · KPI design · DAX measures · interactive dashboar
 ## Next steps
 
 - Reproduce the churn analysis in Python (pandas + scikit-learn) and train a model that **scores each customer's churn risk**, which is what the retention team actually asked for ("know in advance who is likely to leave").
+- Compare churn **rates** per segment (not only counts among churners) to confirm which groups are really at higher risk.
 - Add a customer-lifetime-value view to prioritise retention offers.
 
 ## Reference
@@ -62,4 +76,4 @@ PwC Switzerland – Power BI Job Simulation: <https://www.theforage.com/simulati
 
 ## Author
 
-**Zinsou Valentin AFFATON**  Data analyst / Data scientist, Cotonou, Benin.
+**Zinsou Valentin AFFATON** — Data analyst / Data scientist, Cotonou, Benin.
